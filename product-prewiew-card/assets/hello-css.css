@@ -1,0 +1,151 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+ width: 100%; 
+height: 100vh; 
+ padding: 0; 
+ background-color: #F2EAE2;
+}
+
+.container {
+width: 600px;
+height: 450px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+background-color: #fff; 
+}
+
+img{
+width: 300px;
+height: 450px;
+gap: 0px;
+opacity:1;       
+}
+
+.head h2{
+width: 92px;
+height: 15px;
+top: 32px;
+left: 331.5px;
+gap: 0px;
+opacity: 1;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.63px;
+letter-spacing: 5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-left: 350px;
+margin-top: -420px;
+color:#6C7289;
+;    
+}
+
+.secondhead h1{
+width: 236px;
+height: 96px;
+top: 67px;
+left: 332px;
+gap: 0px;
+opacity:1;
+font-family: Fraunces;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-left: 347px; 
+margin-top: 20px;    
+}
+
+.write p{
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 23px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 237px;
+height: 92px;
+top: 187px;
+left: 331.5px;
+gap: 0px;
+opacity:1;    
+margin-left: 347px;
+margin-top: 24px;
+color:#6C7289;
+;
+}
+
+.headprice h1{
+width: 127px;
+height: 32px;
+top: 308px;
+left: 332px;
+gap: 0px;
+opacity:1;
+font-family: Fraunces;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#3D8168;       
+margin-left:347px ;
+margin-top:29px ;
+}
+
+.thirdhead h3{
+width: 48px;
+height: 23px;
+top: 313px;
+left: 478px;
+gap: 0px;
+opacity:1;
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 23px;
+text-align: left;
+text-decoration-line: line-through;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#6C7289;
+margin-left:476px ;   
+margin-top:-27px;
+}
+
+.buttonbanner {
+width:236px ; 
+height: 48px; 
+background-color: #3D8168; 
+border-radius: 8px 8px 8px 8px;
+display: flex;
+justify-content: center; 
+align-items: center; 
+font-family: Montserrat, sans-serif;
+font-size: 16px;
+font-weight: 500;
+text-align: center;
+margin-left:340px;
+}
+
+
+.buttonbanner p {
+color: #fff; 
+font-size: 14px;
+margin: 0; 
+text-align: center;
+display: inline-block; 
+} 

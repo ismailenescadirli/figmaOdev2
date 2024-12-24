@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ width: 1440px;
+ height: 900px;
+ top: -450px;
+ left: -1266px;
+ padding: 152px 0px 152px 0px;
+ gap: 0px;
+ opacity: 1px;
+ background-color:#0D192C;
+ ;      
+}
+.container{
+width: 350px;
+height: 596px;
+top: 152px;
+left: 545px;
+gap: 0px;
+opacity: 1px;
+background-color:#15263F;
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%); 
+}
+
+.imgclass{
+width: 302px;
+height: 302px;
+top: 24px;
+left: 24px;
+gap: 0px;
+border-radius: 8px 8px 8px 8px;
+opacity: 1px;
+margin-top: 24px;
+margin-left:24px ;
+}
+h1{
+color:white;
+font-family: Outfit;
+font-size: 22px;
+font-weight: 600;
+line-height: 27.72px;
+margin-left:24px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top:10px;
+}
+p{
+color: #8BACD9;
+font-family: Outfit;
+font-size: 18px;
+font-weight: 300;
+line-height: 26px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none; 
+margin-left: 24px;;
+}
+
+.writeclass p {
+color:#00FFF8;
+font-family: Outfit;
+font-size: 16px;
+font-weight: 600;
+line-height: 20.16px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.writeclass p::after {
+content: ''; 
+position: absolute;
+left: 0;
+top: -24px; 
+width:325px; 
+height: 1px; 
+background-color:#2E405A;
+margin-top:550px;
+margin-left: 24px;
+}
+
+.people-img{
+width: 33px;
+height: 33px;
+top: 531px;
+left: 24px;
+gap: 0px;
+border: 1px 1px 1px 1px;
+opacity: 1;
+margin-left: 24px;
+border-radius: 33px;
+}
+
+.imgwrite p{
+font-family: Outfit;
+font-size: 16px;
+line-height: 20.16px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 93px;
+height: 20px;
+left: 86px;
+gap: 0px;
+opacity: 1px;
+color: #8bacd9;
+margin-left: 68px;
+margin-top: -29px;
+}
+
+.imgsecondwrite p{
+width: 93px;
+height: 20px;
+left: 86px;
+gap: 0px;
+opacity:1;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.16px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:white;
+margin-left: 150px;
+margin-top: -20px;
+}
